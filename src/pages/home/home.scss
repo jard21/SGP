@@ -1,3 +1,50 @@
 page-home {
+  $SIDEMENU_TOP: #0adaff;
+$SIDEMENU_BOTTOM: #016cff;
+  .login-content {
+    background: -webkit-gradient(left top, $SIDEMENU_TOP, $SIDEMENU_BOTTOM);
+   background: -o-linear-gradient(bottom right, $SIDEMENU_TOP, $SIDEMENU_BOTTOM);
+   background: -moz-linear-gradient(bottom right, $SIDEMENU_TOP, $SIDEMENU_BOTTOM);
+   background: linear-gradient(to bottom right, $SIDEMENU_TOP, $SIDEMENU_BOTTOM);
+   background-repeat: repeat-x;
+
+    .login-box {
+      padding: 20px 20px 0px 20px;
+      margin-top: 30px;
+      color: #FDFEFE;
+      font-size: 1.2em;
+    }
+
+    ion-row {
+       align-items: center;
+       text-align: center;
+     }
+
+     ion-item {
+         font-size: 1.2em;
+         margin-bottom: 10px;
+         background-color: rgba(0,0,0,0);
+         color: #FDFEFE;
+     }
+
+     .signup-col {
+       margin: 0px 16px 0px 16px;
+       padding-bottom: 20px;
+     }
+
+     .item-inner {
+       border-bottom-color: #ffffff !important;
+       box-shadow: none !important;
+     }
+
+     .submit-btn {
+       background: #FDFEFE;
+       border: 1px solid #ffffff;
+       color: #026cff;
+       font-size: 1.5em;
+     }
+
+  }
+
 
 }
